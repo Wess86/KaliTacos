@@ -1,3 +1,9 @@
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1503687604320-837680323fc1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3024&q=80);
+   }
+
+
 h1, h2, p {
     text-align: center;
   }
@@ -5,24 +11,31 @@ h1, h2, p {
     
 .menu {
     background-color: #E1D4BB;
-    width:80%
+    width:60%;
     margin-left: auto;
     margin-right: auto;
+    border: 2px dashed black;
 }
 
 
 
-body {
- background-image: url(https://images.unsplash.com/photo-1503687604320-837680323fc1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3024&q=80);
+
+
+.choice p {
+    display: inline-block;
 }
-
-
 
 .tacos, .bowls {
     text-align: left;
 }
 
+.tacos {
+    width: 75%;
+}
 
 .price {
     text-align: right;
+    width: 25%;
 }
+
+
