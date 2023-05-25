@@ -57,6 +57,7 @@ h1 {
 .price {
     text-align: right;
     width: 25%;
+    font-weight: 800;
 }
 
 
