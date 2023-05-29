@@ -35,7 +35,12 @@ h1 {
 }
 
 
-
+.btitle {
+    height: 1px;
+    text-underline-position: under;
+    text-decoration: underline;
+    ßßtext-decoration-thickness: 2px;
+}
 
 
 .choice p {
